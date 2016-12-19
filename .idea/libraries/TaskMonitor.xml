@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TaskMonitor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/TaskMonitor_jar2/TaskMonitor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

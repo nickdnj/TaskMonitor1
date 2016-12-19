@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TaskMonitor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CEATaskMonitor/lib</output-path>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="TaskMonitor.jar">
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/MentorGraphics/Capital/lib/xerces.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/MentorGraphics/Capital/lib/capitalapi.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/MentorGraphics/Capital/lib/javax.ws.rs-api-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/annotations.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/MentorGraphics/Capital/lib/jetty-annotations.jar" path-in-jar="/" />
+      <element id="directory" name="config">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/CEATaskMonitor/config/TaskMonConfig.xml" />
+      </element>
+      <element id="directory" name="tmp" />
+      <element id="directory" name="bin">
+        <element id="file-copy" path="$PROJECT_DIR$/src/RunCEATaskMonitor.bat" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="module-output" name="TaskMonitor" />
+      </element>
+    </root>
+  </artifact>
+</component>
